@@ -15,6 +15,7 @@ td:hover {
     transform: scale(1.2);   
 }
 .caption {
+    font-size:40px;
     border: solid brown;
     text-align: center;
     color: darkolivegreen;

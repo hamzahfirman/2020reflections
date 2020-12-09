@@ -2,9 +2,9 @@ import React from 'react';
 import './Images.css';
 import { Redirect } from 'react-router-dom';
 /* All images  */
-import Mathematics from "../images/math.png";
-import Animals from "../images/animal1.png";
-import Flowers from "../images/sunflower3.png";
+import Breakfast from "../images/break1.jpg";
+import Love from "../images/love1.jpg";
+import Life from "../images/life9.jpg";
 /* React-Bootstrap */
 import { Table } from 'react-bootstrap';
 
@@ -13,7 +13,7 @@ class Images extends React.Component {
         super(props);
         this.state ={
             categories: [
-                {one: flowers, two: animals, three: mathematics},
+                {one: life, two: love, three: breakfast},
             ],
             categoryName: ""
         }
@@ -68,8 +68,8 @@ class Category {
     }
 }
 // Flower Objects 
-let flowers = new Category('life', Flowers);
-let animals = new Category('divine', Animals);
-let mathematics = new Category('sea', Mathematics);
+let life  = new Category('life', Life);
+let love = new Category('love', Love);
+let breakfast = new Category('breakfast', Breakfast);
 
 export default Images;

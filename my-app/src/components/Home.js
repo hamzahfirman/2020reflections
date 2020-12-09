@@ -24,43 +24,8 @@ class Home extends React.Component {
     return(
       <div>
         <div id="notSignedInMessage">
-          Move your cursor to the top right of the page and log yourself in. 
+           
         </div>
-        <br></br>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-50"
-              src={Mathematics}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>Life</h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-50"
-              src={Animals}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3></h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-50"
-              src={Flowers}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Flowers</h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
       </div>
     );
   }
@@ -76,7 +41,7 @@ class Home extends React.Component {
     return( 
 
       <div id="welcomeMessage">
-      Pick one choice below:
+        
       </div>
   );
   }

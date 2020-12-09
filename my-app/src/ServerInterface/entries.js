@@ -2,8 +2,10 @@ let entries = [
     {type: "life" ,
      details: [
         {
-        
-        image: "daffodil.png",
+
+
+        type: "life",
+        image: "life2.jpg",
         question: "The image above makes you feel...",
         answer: 'Lily',
         guesses: ["lifespan", "liveliness", "eternal"]
@@ -11,7 +13,7 @@ let entries = [
         },
         {
         
-            image: "sunflower.png",
+            image: "life3.jpg",
             question: "The image above makes you feel...",
             answer: 'Sunflower',
             guesses: ["unconditioned", "obscure", "pleasant"]
@@ -19,15 +21,15 @@ let entries = [
         },
         {
         
-            image: "rose.png",
-            question: "The image above makes you feel...",
+            image: "life4.jpg",
+            question: "The image above makes you think of...",
             answer: 'Rose',
             guesses: ["society", "existence", "companionship"]
     
         },
         {
         
-            image: "cherryblossom.png",
+            image: "life5.jpg",
             question: "The image above makes you feel...",
             answer: 'Cherryblossom',
             guesses: ["fearless","vigorous","charmed"]
@@ -35,23 +37,23 @@ let entries = [
         },
         {
         
-            image: "tulip.png",
-            question: "The image above makes you feel...",
+            image: "life6.jpg",
+            question: "The image above makes you think of..",
             answer: 'Tulip',
             guesses: ["enjoyment", "memoir", "afterlife"]
     
         },
         {
         
-            image: "waterlily.png",
-            question: "The image above makes you feel...",
+            image: "life7.jpg",
+            question: "The image above makes you think of...",
             answer: 'Waterlily',
             guesses: ["adolescence", "manhood","immortality"]
     
         },
         {
         
-            image: "waterlily.png",
+            image: "life8.jpg",
             question: "The image above makes you feel...",
             answer: 'Waterlily',
             guesses: ["joyous", "threatening","everlasting"]
@@ -62,8 +64,8 @@ let entries = [
     {type: "breakfast" ,
      details: [
         {
-        
-        image: "lion.jpg",
+        type: "breakfast",
+        image: "love2.jpg",
         question: "The image above makes you feel...",
         answer: 'Lion',
         guesses: ["happy", "hasty", "disturbed"]
@@ -71,7 +73,7 @@ let entries = [
         },
         {
         
-            image: "elephant.jpg",
+            image: "love3.jpg",
             question: "The image above makes you feel...",
             answer: 'Elephant',
             guesses: ["misery", "bliss", "humor"]
@@ -79,15 +81,15 @@ let entries = [
         },
         {
         
-            image: "camel.jpg",
-            question: "Which image did you see first?",
+            image: "love4.jpg",
+            question: "The image above makes you think of...",
             answer: 'Camel',
             guesses: ["cloud", "rain", "waterfall"]
     
         },
         {
         
-            image: "zebra.jpg",
+            image: "love5.jpg",
             question: "The image above makes you feel...",
             answer: 'Zebra',
             guesses: ["energetic", "sluggish", "expeditious"]
@@ -95,7 +97,7 @@ let entries = [
         },
         {
         
-            image: "gorilla.jpg",
+            image: "love6.jpg",
             question: "The image above makes you feel...",
             answer: 'Gorilla',
             guesses: ["trivial", "fundamental", "crucial"]
@@ -103,75 +105,80 @@ let entries = [
         },
         {
         
-            image: "shark.jpg",
-            question: "Which item did you see first?",
+            image: "love7.jpg",
+            question: "The image above makes you think of...",
             answer: 'Shark',
-            guesses:["a crisp, red apple", "ripe pears", "Dry roasted peanuts"]
+            guesses:["a crisp, red apple", "ripe pears", "dry roasted peanuts"]
     
         },
         {
         
-            image: "shark.jpg",
-            question: "Which item did you see first?",
+            image: "love8.jpg",
+            question: "The image above makes you feel...",
             answer: 'Shark',
-            guesses:["cherished", "marvellous", "wondrous"]
+            guesses:["Unpleasant", "Marvellous", "Wondrous"]
     
         },
         ]  
     },  
-     {type: "sea" ,
+     {type: "love" ,
         details: [
        {
-       
-       image: "math1.jpg",
+       type: "love",
+       image: "break2.jpg",
        question: "The image above makes you feel...",
        answer: '18',
-       guesses: ["unsophisticated","naive", "smooth"]
+       guesses: ["elegant","naive", "pleasing"]
 
        },
        {
        
-           image: "math2.jpg",
+           image: "break3.jpg",
            question: "The image above makes you feel...",
            answer: '464',
-           guesses: ["smell", "touch", "smile"]
+           guesses: ["grief", "beauty", "hate"]
    
        },
        {
        
-           image: "math3.jpg",
+           image: "break4.jpg",
            question: "The image above makes you feel...",
            answer: 'undefined',
-           guesses: [""]
+           guesses: ["jealousy", "tenderness", "sorrow"]
    
        },
        {
        
-           image: "math4.jpg",
+           image: "break5.jpg",
            question: "The image above makes you feel...",
            answer: '7',
-           guesses: ["43", "92", "-4","-43", "787", "43", "64",
-           "-1223", "1886", "98", "99", "30"]
+           guesses: ["happiness", "joy", "soul" ]
    
        },
        {
        
-           image: "math5.jpg",
+           image: "break6.jpg",
            question: "The image above makes you feel...",
            answer: '1',
-           guesses: ["43", "92", "-4","-43", "787", "43", "64",
-           "-1223", "1886", "98", "99", "30"]
+           guesses: ["magnificient", "loving", "tender" ]
    
        },
        {
        
-           image: "math6.jpg",
+           image: "break7.jpg",
            question: "The image above makes you feel...",
            answer: '69',
-           guesses:["43", "92", "-4","-43", "787", "43", "64",
-           "-1223", "1886", "98", "99", "30"]
+           guesses:["gloom", "sweetness", "intimacy"]
    
        },
+       {
+       
+        image: "break8.jpg",
+        question: "The image above makes you feel...",
+        answer: '69',
+        guesses:["sweet", "everlasting", "sincere"]
+
+    },
        ]  
    }
    

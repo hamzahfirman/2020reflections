@@ -78,8 +78,8 @@ class Quiz extends React.Component {
     // For instance, it can tell you what key was pressed
     questions = () => {
         const { cursor, entries, score } = this.state;
-        console.log(cursor + " " + entries);
-        if((cursor == 0) && (cursor < entries.length -1)){ // Inital stage in the Quiz
+
+        if((cursor >= 0) && (cursor < entries.length -1)){ // Inital stage in the Quiz
             return (
                 <div>
                     <Entry onChoiceSelected={this.onChoiceSelected} entry={entries[cursor]} cursor= {cursor}/> 
@@ -90,28 +90,19 @@ class Quiz extends React.Component {
                 </div>
             );
 
-        }else if((cursor > 0) && (cursor < entries.length -1)) { // After passing the first question
-            return (
-                <div>
-                    <Entry onChoiceSelected={this.onChoiceSelected} entry={entries[cursor]} cursor= {cursor}/> 
-                    <div id="buttonContainer">
-                        <button id="button"  onClick={this.handleOnClickNext}>Next</button>
-                    </div>
-         
-                </div>
-            );
-        }
-        return ( // When the user has reached the last queston of the Quiz
+        }else if (cursor == entries.length -1) {
+            return ( // When the user has reached the last queston of the Quiz
                 <div>
                     <Entry onChoiceSelected={this.onChoiceSelected}  entry={entries[cursor]} cursor= {cursor}/>
                     <div id="backContainer">
-                        <button id="theEndButtons" onClick={this.handleOnClickFinish}>Write the poem</button>
+                        <button id="theEndButtons" onClick={this.handleOnClickFinish}>Click here to see your results.. </button>
                     </div>
 
                 </div>
             );
-        
-    }
+        }
+    
+ }
    
     // This function will be executed after everything gets loaded in the DOM.
     // After 'render()' executed 
@@ -169,20 +160,67 @@ class Quiz extends React.Component {
              );
         }
         if (finished === true){
+            if(entries[0].type == "life"){
+                return(
+                    <div>
+                        <div className="finishedContainer">
+                            <div id="congrats"><i>Life</i> by {this.props.location.state.username}<br></br>
+                            </div>
+                            <p id="thePoem">
+                            Pay attention to the {allWords[0]}<br></br>
+                            The {allWords[0]} is the most {allWords[1]} chronicle of all<br></br>
+                            Does the {allWords[2]} make you shiver?<br></br>
+                            Does it?<br></br><br></br>
+                            I cannot help but stop and <br></br>
+                            look at the {allWords[3]} {allWords[4]}<br></br>
+                            Now day time is just the thing, to get me <br></br>
+                            wondering if {allWords[5]} is {allWords[6]}
+
+                            </p>
+                            <div className="lastPageButtons">
+                            <button className="homeAndRetry" id="homeButton"  onClick={this.handleOnClickHome}>Home</button>
+                            <button  className="homeAndRetry" id="retryButton" onClick={this.handleOnClickRetry}>Rewrite</button></div>
+                        </div>
+                    </div>
+                );
+        }else if(entries[0].type == "breakfast"){
             return(
                 <div>
                     <div className="finishedContainer">
-                        <div id="congrats"><i>Life</i> by {this.props.location.state.username}<br></br>
+                    <div id="congrats"><i>Breakfast</i> by {this.props.location.state.username}<br></br>
+                    </div>
+                    <p id="thePoem">
+                    Whose breakfast is that? I think I know.<br></br>
+                    Its owner is quite {allWords[0]} though.<br></br>
+                    Full of {allWords[1]} like a vivid {allWords[2]}.<br></br>
+                    I watch him laugh. I cry hello.<br></br><br></br>
+                    The breakfast is {allWords[3]}, {allWords[4]}, and deep.<br></br>
+                    But he has promises to keep.<br></br>
+                    After {allWords[5]} and lots of sleep.<br></br>
+                    {allWords[6]} dreams come to him cheap.
+
+                    </p>
+                    <div className="lastPageButtons">
+                    <button className="homeAndRetry" id="homeButton"  onClick={this.handleOnClickHome}>Home</button>
+                    <button  className="homeAndRetry" id="retryButton" onClick={this.handleOnClickRetry}>Rewrite</button></div>
+                     </div>
+                </div>
+            );
+        }else if(entries[0].type == "love"){
+            return(
+                <div>
+                    <div className="finishedContainer">
+                        <div id="congrats"><i>Love</i> by {this.props.location.state.username}<br></br>
                         </div>
                         <p id="thePoem">
-                        Pay attention to the {allWords[0]}<br></br>
-                        The {allWords[0]} is the most {allWords[1]} chronicle of all<br></br>
-                        Does the {allWords[2]} make you shiver?<br></br>
-                        Does it?<br></br><br></br>
-                        I cannot help but stop and <br></br>
-                        look at the {allWords[3]} {allWords[4]}<br></br>
-                        Now day time is just the thing, to get me <br></br>
-                        wondering if {allWords[5]} is {allWords[6]}
+                        On that day my soul grew {allWords[0]}<br></br>
+                        Once I sat and engaged and pleasuring<br></br>
+                        Once upon a midnight {allWords[1]} m<br></br>
+                        In a kingdom full of {allWords[2]}<br></br><br></br>
+                        My {allWords[3]} is the dear eros <br></br>
+                        I heard {allWords[4]}, romance treasuring<br></br>
+                        Deep into that {allWords[5]} romancing <br></br>
+                        Much I marvelled the {allWords[6]} amour
 
                         </p>
                         <div className="lastPageButtons">
@@ -191,7 +229,7 @@ class Quiz extends React.Component {
                     </div>
                 </div>
             );
-        }
+        }}
         if(entries.length > 0){
             return(
                 <div>
