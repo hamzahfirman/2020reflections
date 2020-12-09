@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/2020reflections/static/css/main.842d92d8.chunk.css",
+    "main.js": "/2020reflections/static/js/main.009afbc3.chunk.js",
+    "main.js.map": "/2020reflections/static/js/main.009afbc3.chunk.js.map",
+    "runtime-main.js": "/2020reflections/static/js/runtime-main.74298975.js",
+    "runtime-main.js.map": "/2020reflections/static/js/runtime-main.74298975.js.map",
+    "static/js/2.5c98981c.chunk.js": "/2020reflections/static/js/2.5c98981c.chunk.js",
+    "static/js/2.5c98981c.chunk.js.map": "/2020reflections/static/js/2.5c98981c.chunk.js.map",
+    "index.html": "/2020reflections/index.html",
+    "precache-manifest.83f34f2275145f340584dd5de2f2d439.js": "/2020reflections/precache-manifest.83f34f2275145f340584dd5de2f2d439.js",
+    "service-worker.js": "/2020reflections/service-worker.js",
+    "static/css/main.842d92d8.chunk.css.map": "/2020reflections/static/css/main.842d92d8.chunk.css.map",
+    "static/js/2.5c98981c.chunk.js.LICENSE.txt": "/2020reflections/static/js/2.5c98981c.chunk.js.LICENSE.txt",
+    "static/media/animal1.png": "/2020reflections/static/media/animal1.3a8f6719.png",
+    "static/media/camel.jpg": "/2020reflections/static/media/camel.cd372b53.jpg",
+    "static/media/cherryblossom.png": "/2020reflections/static/media/cherryblossom.b610ae10.png",
+    "static/media/daffodil.png": "/2020reflections/static/media/daffodil.88848efd.png",
+    "static/media/elephant.jpg": "/2020reflections/static/media/elephant.39a006a9.jpg",
+    "static/media/gorilla.jpg": "/2020reflections/static/media/gorilla.a2a3e870.jpg",
+    "static/media/lion.jpg": "/2020reflections/static/media/lion.09120c5c.jpg",
+    "static/media/math.png": "/2020reflections/static/media/math.28a8a03f.png",
+    "static/media/math1.jpg": "/2020reflections/static/media/math1.b76d4af4.jpg",
+    "static/media/math2.jpg": "/2020reflections/static/media/math2.f2730a34.jpg",
+    "static/media/math3.jpg": "/2020reflections/static/media/math3.65827778.jpg",
+    "static/media/math5.jpg": "/2020reflections/static/media/math5.e2e572fd.jpg",
+    "static/media/math6.jpg": "/2020reflections/static/media/math6.76472419.jpg",
+    "static/media/rose.png": "/2020reflections/static/media/rose.6f79caeb.png",
+    "static/media/shark.jpg": "/2020reflections/static/media/shark.e5563d34.jpg",
+    "static/media/sunflower.png": "/2020reflections/static/media/sunflower.adc45e53.png",
+    "static/media/sunflower2.png": "/2020reflections/static/media/sunflower2.ccb0a32b.png",
+    "static/media/sunflower3.png": "/2020reflections/static/media/sunflower3.21d809f5.png",
+    "static/media/tulip.png": "/2020reflections/static/media/tulip.f9a3f0da.png",
+    "static/media/waterlily.png": "/2020reflections/static/media/waterlily.fca50ba1.png",
+    "static/media/zebra.jpg": "/2020reflections/static/media/zebra.c9b958c8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74298975.js",
+    "static/js/2.5c98981c.chunk.js",
+    "static/css/main.842d92d8.chunk.css",
+    "static/js/main.009afbc3.chunk.js"
+  ]
+}
