@@ -1,0 +1,21 @@
+.tableFlowers {
+    margin: auto;
+    margin-top: 50px;
+}
+img {
+    width: 200px;
+
+}
+td {
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+}
+
+td:hover {
+    transform: scale(1.2);   
+}
+.caption {
+    border: solid brown;
+    text-align: center;
+    color: darkolivegreen;
+}

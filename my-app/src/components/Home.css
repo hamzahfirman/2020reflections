@@ -1,0 +1,32 @@
+/* Homepage styling */
+body{
+ background-color: goldenrod;
+ color:darkslateblue;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ text-shadow: 1px 1px hsl(0, 100%, 50%);
+
+}
+.loginButton {
+   float:right;
+}
+.loginNow{
+    text-align: center;
+}
+.Home{
+    text-align: left;
+}
+#notSignedInMessage{
+    color:cornflowerblue;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: Bradley Hand, cursive;
+}
+#welcomeMessage {
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: bold;
+    text-shadow: 1px 1px hsl(303, 100%, 50%);
+}
+
+

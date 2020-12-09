@@ -1,0 +1,9 @@
+/* Login Page styling */
+.loginNow {
+    float: left;
+    color:darkolivegreen;
+    text-shadow: 1px 1px hsl(76, 100%, 50%);
+}
+button::backdrop{
+    background-color: deepskyblue;
+}
