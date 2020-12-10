@@ -5,7 +5,8 @@
 }
 #nextButton{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    color:brown;
+    color:white;
+    background-color: brown;
 }
 #buttonContainer {
     text-align: center;
@@ -18,7 +19,8 @@
     margin-left: 131px;
     margin-right: 131px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    color:brown;
+    color:white;
+    background-color: brown;
 }
 #backContainer {
     text-align: center;
@@ -29,7 +31,8 @@
     margin-left: 128px;
     margin-right: 128px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    color:brown;
+    color:white;
+    background-color: darkviolet;
 }
 
 .score {
@@ -59,7 +62,8 @@
 }
 .homeAndRetry {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    color:brown;
+    color:white;
+    background-color: brown;
 }
 #congrats {
   text-align: center;

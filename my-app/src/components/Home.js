@@ -24,7 +24,7 @@ class Home extends React.Component {
     return(
       <div>
         <div id="notSignedInMessage">
-           
+           Welcome to Creative Cognition Evaluator
         </div>
       </div>
     );
@@ -41,7 +41,7 @@ class Home extends React.Component {
     return( 
 
       <div id="welcomeMessage">
-        
+       Let's see how far you creative thinking goes on these simple themes: 
       </div>
   );
   }
@@ -75,12 +75,12 @@ class Home extends React.Component {
       }else{
         return (
           <div className="Home">
-      
+          
             <div className="loginButton">
                 {username.length > 0 ? username: 
                 <Link to='/login'>Login</Link>}
             </div>
-              Fun Poem Maker
+              Creative Cognition Evaluator
               {this.notSignedIn()}
           </div>
         );
