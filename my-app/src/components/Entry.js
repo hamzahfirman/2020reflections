@@ -76,6 +76,9 @@ class Entry extends React.Component {
                 <div className="allEntries">
                     <p id="question">
                     <div id="image"><img src={require("../images/" + entry.image)} alt={entry.image}/></div>
+                    <div clas="artistCreds">
+                       <i>{entry.artist}</i>
+                    </div>
                     {entry.question}</p>
                     {this.getPossibleAnswers()}
                 </div>

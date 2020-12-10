@@ -4,7 +4,7 @@
     text-shadow: 1px 1px gray;
     /* font-weight: bold; */
     border: solid darkslategrey;
-    height: 390px;
+    height: 450px;
     width: 350px; 
     margin-left: auto;
     margin-right: auto;
@@ -15,4 +15,12 @@
 }
 .answers {
     padding:auto;
+}
+#artistCreds {
+    background-color: darkseagreen;
+    color: red;
+    font-size:15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
 }
